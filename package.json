@@ -1,0 +1,36 @@
+{
+  "name": "tts-mcp-server",
+  "version": "0.1.0",
+  "description": "Text-to-Speech MCP Server for Claude Desktop",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "tts-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "keywords": [
+    "mcp",
+    "text-to-speech",
+    "tts",
+    "claude",
+    "elevenlabs",
+    "ai",
+    "voice"
+  ],
+  "author": "SnirRadomsky",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnirRadomsky/tts-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SnirRadomsky/tts-mcp-server/issues"
+  },
+  "homepage": "https://github.com/SnirRadomsky/tts-mcp-server#readme"
+}
